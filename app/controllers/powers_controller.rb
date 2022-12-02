@@ -10,5 +10,9 @@ class PowersController < ApplicationController
         render json: power
     end
 
+    private
+    def
+    end
+    
     
 end
