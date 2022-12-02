@@ -21,5 +21,8 @@ Power.create(name: "flight", description: "gives the wielder the ability to fly 
 Power.create(name: "spped", description: "ability to travel at the speed of light")
 Power.create(name: "Immortality", description:"The ability to have infinite life or lives")
 
+HeroPower.create(strength: "Average", hero_id: 3, power_id: 2)
+HeroPower.create(strength: "Strong", hero_id: 2, power_id: 3)
+HeroPower.create(strength: "Weak", hero_id: 1, power_id: 1)
 
 
