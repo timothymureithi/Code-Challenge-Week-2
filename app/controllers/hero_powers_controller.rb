@@ -1,9 +1,10 @@
 class HeroPowersController < ApplicationController
 
+    # GET /hero_powers
     def index
-        render json: HeroPower.all, status: :ok
+        hero_powers = HeroPower.all
+        render json: hero_powers
     end
 
-    def create
-    end
+
 end
